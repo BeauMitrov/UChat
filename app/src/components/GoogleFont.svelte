@@ -4,7 +4,7 @@
     let { fontName = "Geist" }: Props = $props();
 
     let fontUrl = $derived(
-        `https://fonts.googleapis.com/css2?family=${fontName.replace(/\s+/g, "+")}:wght@400;700&display=swap`
+        `https://fonts.googleapis.com/css2?family=${fontName.replace(/\s+/g, "+")}:wght@400;700&display=swap`,
     );
 </script>
 
